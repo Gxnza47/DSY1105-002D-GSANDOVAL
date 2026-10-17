@@ -57,9 +57,10 @@ fun LoginScreen(
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        // El botón siempre permanece habilitado (enabled = true)
         Button(
             onClick = { onLoginClick(Rol.OPERADOR) },
-            enabled = !uiState.isLoading,
+            enabled = true,
             modifier = Modifier.fillMaxWidth()
         ) {
             if (uiState.isLoading) {

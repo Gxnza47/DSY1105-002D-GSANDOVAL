@@ -66,6 +66,7 @@ class LoginViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun logout() {
-        _uiState.value = LoginUiState() // Resetea completamente el estado y limpia los campos
+        // Reinicia todo el estado a cadenas vacías para no conservar el correo anterior
+        _uiState.value = LoginUiState()
     }
 }
