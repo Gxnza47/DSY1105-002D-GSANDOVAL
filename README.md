@@ -1,5 +1,9 @@
 # App ModoGuardian — Proyecto personal de Gonzalo Sandoval
 
+# intengrantes de grupo
+Gonzalo Sandoval
+Maximiliano Fuentes
+
 Aplicación Android desarrollada en Kotlin + Jetpack Compose para demostrar las guías del caso ModoGuardian.
 
 ## Flujo principal
